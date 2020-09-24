@@ -53,7 +53,7 @@ class Arvore:
         while True:
             index = self.string.find(self.string_acumulada, index)
             if index >= 0:
-                print(f'{repeticao}º ocorrência: [{index}, {index + len(self.string_acumulada) - 1}]')
+                print(f'{repeticao}º ocorrência: [{index}, {index + len(self.string_acumulada)}]')
                 index += 1
                 repeticao += 1
             else:
